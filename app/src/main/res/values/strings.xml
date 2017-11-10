@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_account">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="forecast">预报</string>
+    <string name="forecast_date">日期</string>
+    <string name="forecast_status">状况</string>
+    <string name="forecast_max_tmp">最高温</string>
+    <string name="forecast_min_tmp">最低温</string>
+    <string name="weather_life_suggestion">生活建议</string>
+    <string name="weather_air_quality">空气质量</string>
+    <string name="weather_AQI_index">AQI指数</string>
+    <string name="weather_PM_index">PM2.5指数</string>
+    <string name="comfort_title">舒适指数：</string>
+    <string name="carRush_title">洗车指数：</string>
+    <string name="sport_title">运动指数：</string>
+    <string name="request_weather_info_failed">获取天气信息失败</string>
+    <string name="text_one">天气状况</string>
+    <string name="text_two">实时数据</string>
+    <string name="text_three">控制中心</string>
+    <string name="login_info">登录失败</string>
+    <string name="remember_password">记住密码</string>
+
+</resources>

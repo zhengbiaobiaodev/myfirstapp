@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/weather_temperature_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/weather_info_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/weather_temperature_text_view"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/weather_update_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/weather_info_text_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:textColor="#fff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/weather_update_time_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:text="天气更新时间:"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

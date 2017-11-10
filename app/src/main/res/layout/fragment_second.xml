@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/chart_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/chart_root_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/chart_humidity"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/humidity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:gravity="start"
+                    android:text="当前室内湿度 : " />
+
+                <LinearLayout
+                    android:id="@+id/chart_outdoor_humidity"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/outdoor_humidity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:gravity="start"
+                    android:text="当前室外湿度 : " />
+
+                <LinearLayout
+                    android:id="@+id/chart_temperature"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/temperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:gravity="start"
+                    android:text="当前室内温度 : " />
+
+                <LinearLayout
+                    android:id="@+id/chart_PM25"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/PM25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:gravity="start"
+                    android:text="当前室内CO2浓度 : " />
+
+                <LinearLayout
+                    android:id="@+id/chart_outdoor_temperature"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/outdoor_temperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:gravity="start"
+                    android:text="当前室外温度 : " />
+
+                <LinearLayout
+                    android:id="@+id/chart_CH2O"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/CH2O"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:gravity="start"
+                    android:text="当前室内CH2O浓度 : " />
+
+                <LinearLayout
+                    android:id="@+id/chart_CO2"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/CO2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:gravity="start"
+                    android:text="当前室内CO2浓度 : " />
+
+
+
+                <LinearLayout
+                    android:id="@+id/chart_TVOC"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <TextView
+                    android:id="@+id/TVOC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:gravity="start"
+                    android:text="当前室内CO2浓度 : " />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
